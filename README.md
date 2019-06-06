@@ -26,10 +26,12 @@ From the diagram above we can see how each of the docker files communicate with 
 
  1. Make a new google cloud virtual machine and git clone this project. 
  
- 2. Change the .env file IP address to the external ip of the virtual machine
+ 2. Install Docker on to the virtual machine 
  
- 3. Enter the file with the cd command and run docker-compose -d up. This will build and compile all the docker files inside this folder. 
+ 3. Change the .env file IP address to the external ip of the virtual machine
  
- 4. Once that is all running head to http://localhost/authentication/login
+ 4. Enter the file with the cd command and run docker-compose -d up. This will build and compile all the docker files inside this folder. 
+ 
+ 5. Once that is all running head to http://localhost/authentication/login
 
 *Localhost = the ip of the virtual machine*
